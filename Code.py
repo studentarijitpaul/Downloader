@@ -11,7 +11,6 @@ RETRY_LIMIT = 3
 TIMEOUT = 10  # seconds
 # --------------------------------------------
 
-# Configure logging
 logging.basicConfig(
     filename=LOG_FILE,
     level=logging.INFO,
