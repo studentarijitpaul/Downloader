@@ -8,8 +8,8 @@ from urllib.parse import urlparse
 LOG_FILE = "image_downloader.log"
 DOWNLOAD_DIR = "downloads"
 RETRY_LIMIT = 3
-TIMEOUT = 10  # seconds
-# --------------------------------------------
+TIMEOUT = 10  
+
 
 logging.basicConfig(
     filename=LOG_FILE,
