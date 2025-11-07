@@ -75,6 +75,5 @@ def download_image(url):
 
 
 if __name__ == "__main__":
-    # Example usage:
     image_url = input("Enter Google Image URL: ").strip()
     download_image(image_url)
