@@ -4,7 +4,6 @@ import logging
 from time import sleep
 from urllib.parse import urlparse
 
-# ------------------ CONFIG ------------------
 LOG_FILE = "image_downloader.log"
 DOWNLOAD_DIR = "downloads"
 RETRY_LIMIT = 3
